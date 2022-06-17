@@ -1,0 +1,24 @@
+:root{
+--main-bg-color: purple;
+
+
+}
+
+
+
+
+header {
+    text-align: center;
+    font-size: 45px;
+   color: var(--purple);
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+.heading{
+    display: flex;
+    color: var(--main-bg-color);
+    padding-bottom: 10px;
+}
