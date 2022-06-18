@@ -1,25 +1,28 @@
 :root{
 --purple: purple;
-
-
+--white: white;
+--bold: black;
+--lightp: rgb(192, 78, 192);
+--width: 280px;
 
 }
 
 .upper{
     font-size: 15px;
-    width: 680px;
+    width: 670px;
     text-align: center;
+    color: var(--purple);
 }
 
 
 header {
     text-align: center;
-    font-size: 45px;
+    font-size: 50px;
    color: var(--purple);
 }
 
 body {
-    background-image: linear-gradient var(--purple);
+    background-image: var(--lightp);
 }
 
 .heading{
@@ -30,6 +33,20 @@ body {
 }
 
 
+main{
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    border:solid 1px var(--purple);
+    border-radius: 7px;
+    width: 275px;
+    background-image: linear-gradient(var(--purple), var(--white));
+    color: var(--purple);
+  
+ 
+ }
 
 
 .up{
@@ -41,9 +58,56 @@ body {
 
 
 .inf{
+    border-radius: 8px;
+    border:dashed 2px var(--bold);
 margin-right: 15px;
 margin-left: 15px;
-margin-bottom: 43px;
-width: 300px;
-border: dashed 2px var(--purple)
+margin-bottom: 40px;
+width: var(--width);
+background-color: rgb(0, 0, 0);
 }
+
+.detail {
+    position: relative;
+    left: 10px;
+    bottom: 30px;
+    width: 250px;
+    color:var(--purple);
+}
+
+.script{
+    position: relative;
+    font-family: sans-serif;
+    font-size: 16px;
+    bottom: 16px;
+    width: 280px;
+    
+}
+
+pre {
+    position: relative;
+    left: 25px;
+    border-radius: 7px;
+    width: 250px;
+    height: 200px;
+    background-image: linear-gradient(var(--purple), var(--lightp));
+    color:var(--white);
+
+}
+
+.glow{
+    position: relative;
+    left: 25px;
+    bottom: -17px;
+    border-radius: 7px;
+    width: 250px;
+    height: 200px;
+    background-image: linear-gradient(var(--purple), var(--lightp));
+}
+
+.inf:hover{
+    box-shadow: 10px 10px 10px var(--purple);
+   cursor: pointer;
+
+}
+
