@@ -1,10 +1,15 @@
 :root{
---main-bg-color: purple;
+--purple: purple;
+
 
 
 }
 
-
+.upper{
+    font-size: 18px;
+    width: 700px;
+    text-align: center;
+}
 
 
 header {
@@ -18,7 +23,13 @@ body {
 }
 
 .heading{
+    justify-content: center;
     display: flex;
     color: var(--main-bg-color);
     padding-bottom: 10px;
+}
+
+.detail {
+    font-size: 18px;
+    width: 670px;
 }
