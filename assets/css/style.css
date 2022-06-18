@@ -6,8 +6,8 @@
 }
 
 .upper{
-    font-size: 18px;
-    width: 700px;
+    font-size: 15px;
+    width: 680px;
     text-align: center;
 }
 
@@ -19,17 +19,31 @@ header {
 }
 
 body {
-    background-color: var(--main-bg-color);
+    background-image: linear-gradient var(--purple);
 }
 
 .heading{
     justify-content: center;
     display: flex;
-    color: var(--main-bg-color);
-    padding-bottom: 10px;
+    color: var(--purple);
+    padding-bottom: 15px;
 }
 
-.detail {
-    font-size: 18px;
-    width: 670px;
+
+
+
+.up{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.inf{
+margin-right: 15px;
+margin-left: 15px;
+margin-bottom: 43px;
+width: 300px;
+border: dashed 2px var(--purple)
 }
